@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.body--color {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-weight: 600;
+}
+
+.random--color {
+  background-color: black;
+  padding: 30px 40px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.random--color--link {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Modal window</title>
+</head>
+
+<body>
+  <button class="show-modal">Sign-in</button>
+
+  <div class="modal hidden">
+    <button class="close-modal">&times;</button>
+    <div class="wrapper">
+      <div class="left">
+        <div id="signin">
+          <div class="logo">
+            <img src="js.png" alt="JS">
+          </div>
+          <form>
+            <div>
+              <label>Email or Username</label>
+              <input type="text" class="text-input">
+            </div>
+            <div>
+              <label>Password</label>
+              <input type="password" class="text-input">
+            </div>
+            <button type="submit" class="primary-btn">Submit</button>
+        </div>
+        </form>
+
+        <footer class="footer">
+          <p>Copyright &copy; 2021, Rahul M All rights reserved</p>
+          <div>
+            <a href="#">Made with love using HTML | CSS | Javascript</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <div class="overlay hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
